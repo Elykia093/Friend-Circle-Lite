@@ -5,8 +5,8 @@
 #   article_count:      请填写每个博客需要获取的最大文章数量
 spider_settings:
   enable: true
-  json_url: "https://blog.liushen.fun/friend.json"
-  article_count: 5
+  json_url: "https://elykia093.github.io/friend.json"
+  article_count: 10
 
 # 数据合并配置
 # 解释：合并多个数据源的结果，比如国内和国外执行结果，解决部分网站访问受限问题
@@ -38,7 +38,7 @@ link_check:
   proxy_url: ""
   status_api_url: "https://v2.xxapi.cn/api/status?url={url}"
   enable_backlink_check: true
-  author_url: "blog.liushen.fun"
+  author_url: "elykia093.github.io"
 
 # 邮箱推送功能配置，暂未实现，等待后续开发
 # 解释：每天为指定邮箱推送所有友链文章的更新，仅能指定一个
@@ -64,7 +64,7 @@ rss_subscribe:
   enable: true
   github_username: willow-god
   github_repo: Friend-Circle-Lite
-  your_blog_url: https://blog.liushen.fun/
+  your_blog_url: https://elykia093.github.io/
   email_template: "./push_templates/default.html"
   website_info:
     title: "清羽飞扬"
